@@ -1,0 +1,196 @@
+Info: Starting: Create block symbol file (.bsf)
+Info: qsys-generate D:\altera\MAX10\scr1-sdk\fpga\marsohod3\scr1\qsys\m3_sopc.qsys --block-symbol-file --output-directory=D:\altera\MAX10\scr1-sdk\fpga\marsohod3\scr1\qsys\m3_sopc --family="MAX 10" --part=10M50SAE144C8G
+Progress: Loading qsys/m3_sopc.qsys
+Progress: Reading input file
+Progress: Adding avl_dmem [altera_avalon_mm_bridge 17.1]
+Progress: Parameterizing module avl_dmem
+Progress: Adding avl_imem [altera_avalon_mm_bridge 17.1]
+Progress: Parameterizing module avl_imem
+Progress: Adding avl_uart [altera_avalon_mm_bridge 17.1]
+Progress: Parameterizing module avl_uart
+Progress: Adding bld_id [altera_avalon_pio 17.1]
+Progress: Parameterizing module bld_id
+Progress: Adding core_clk_freq [altera_avalon_pio 17.1]
+Progress: Parameterizing module core_clk_freq
+Progress: Adding cpu_clk [clock_source 17.1]
+Progress: Parameterizing module cpu_clk
+Progress: Adding default_slave [altera_error_response_slave 17.1]
+Progress: Parameterizing module default_slave
+Progress: Adding onchip_ram [altera_avalon_onchip_memory2 17.1]
+Progress: Parameterizing module onchip_ram
+Progress: Adding pio_hex_1_0 [altera_avalon_pio 17.1]
+Progress: Parameterizing module pio_hex_1_0
+Progress: Adding pio_hex_3_2 [altera_avalon_pio 17.1]
+Progress: Parameterizing module pio_hex_3_2
+Progress: Adding pio_hex_5_4 [altera_avalon_pio 17.1]
+Progress: Parameterizing module pio_hex_5_4
+Progress: Adding pio_led [altera_avalon_pio 17.1]
+Progress: Parameterizing module pio_led
+Progress: Adding pio_sw [altera_avalon_pio 17.1]
+Progress: Parameterizing module pio_sw
+Progress: Adding reset_bridge_0 [altera_reset_bridge 17.1]
+Progress: Parameterizing module reset_bridge_0
+Progress: Adding reset_sequencer_0 [altera_reset_sequencer 17.1]
+Progress: Parameterizing module reset_sequencer_0
+Progress: Adding sdram [altera_avalon_new_sdram_controller 17.1]
+Progress: Parameterizing module sdram
+Progress: Adding soc_id [altera_avalon_pio 17.1]
+Progress: Parameterizing module soc_id
+Progress: Adding sys_pll [altpll 17.1]
+Progress: Parameterizing module sys_pll
+Progress: Building connections
+Progress: Parameterizing connections
+Progress: Validating
+Progress: Done reading input file
+Info: m3_sopc.core_clk_freq: PIO inputs are not hardwired in test bench. Undefined values will be read from PIO inputs during simulation.
+Info: m3_sopc.sdram: SDRAM Controller will only be supported in Quartus Prime Standard Edition in the future release.
+Info: m3_sopc.soc_id: PIO inputs are not hardwired in test bench. Undefined values will be read from PIO inputs during simulation.
+Warning: m3_sopc.sys_pll: sys_pll.pll_slave must be connected to an Avalon-MM master
+Info: qsys-generate succeeded.
+Info: Finished: Create block symbol file (.bsf)
+Info: 
+Info: Starting: Create HDL design files for synthesis
+Info: qsys-generate D:\altera\MAX10\scr1-sdk\fpga\marsohod3\scr1\qsys\m3_sopc.qsys --synthesis=VERILOG --output-directory=D:\altera\MAX10\scr1-sdk\fpga\marsohod3\scr1\qsys\m3_sopc\synthesis --family="MAX 10" --part=10M50SAE144C8G
+Progress: Loading qsys/m3_sopc.qsys
+Progress: Reading input file
+Progress: Adding avl_dmem [altera_avalon_mm_bridge 17.1]
+Progress: Parameterizing module avl_dmem
+Progress: Adding avl_imem [altera_avalon_mm_bridge 17.1]
+Progress: Parameterizing module avl_imem
+Progress: Adding avl_uart [altera_avalon_mm_bridge 17.1]
+Progress: Parameterizing module avl_uart
+Progress: Adding bld_id [altera_avalon_pio 17.1]
+Progress: Parameterizing module bld_id
+Progress: Adding core_clk_freq [altera_avalon_pio 17.1]
+Progress: Parameterizing module core_clk_freq
+Progress: Adding cpu_clk [clock_source 17.1]
+Progress: Parameterizing module cpu_clk
+Progress: Adding default_slave [altera_error_response_slave 17.1]
+Progress: Parameterizing module default_slave
+Progress: Adding onchip_ram [altera_avalon_onchip_memory2 17.1]
+Progress: Parameterizing module onchip_ram
+Progress: Adding pio_hex_1_0 [altera_avalon_pio 17.1]
+Progress: Parameterizing module pio_hex_1_0
+Progress: Adding pio_hex_3_2 [altera_avalon_pio 17.1]
+Progress: Parameterizing module pio_hex_3_2
+Progress: Adding pio_hex_5_4 [altera_avalon_pio 17.1]
+Progress: Parameterizing module pio_hex_5_4
+Progress: Adding pio_led [altera_avalon_pio 17.1]
+Progress: Parameterizing module pio_led
+Progress: Adding pio_sw [altera_avalon_pio 17.1]
+Progress: Parameterizing module pio_sw
+Progress: Adding reset_bridge_0 [altera_reset_bridge 17.1]
+Progress: Parameterizing module reset_bridge_0
+Progress: Adding reset_sequencer_0 [altera_reset_sequencer 17.1]
+Progress: Parameterizing module reset_sequencer_0
+Progress: Adding sdram [altera_avalon_new_sdram_controller 17.1]
+Progress: Parameterizing module sdram
+Progress: Adding soc_id [altera_avalon_pio 17.1]
+Progress: Parameterizing module soc_id
+Progress: Adding sys_pll [altpll 17.1]
+Progress: Parameterizing module sys_pll
+Progress: Building connections
+Progress: Parameterizing connections
+Progress: Validating
+Progress: Done reading input file
+Info: m3_sopc.core_clk_freq: PIO inputs are not hardwired in test bench. Undefined values will be read from PIO inputs during simulation.
+Info: m3_sopc.sdram: SDRAM Controller will only be supported in Quartus Prime Standard Edition in the future release.
+Info: m3_sopc.soc_id: PIO inputs are not hardwired in test bench. Undefined values will be read from PIO inputs during simulation.
+Warning: m3_sopc.sys_pll: sys_pll.pll_slave must be connected to an Avalon-MM master
+Info: m3_sopc: Generating m3_sopc "m3_sopc" for QUARTUS_SYNTH
+Info: Inserting clock-crossing logic between cmd_demux.src3 and cmd_mux_003.sink0
+Info: Inserting clock-crossing logic between cmd_demux_001.src3 and cmd_mux_003.sink1
+Info: Inserting clock-crossing logic between rsp_demux_003.src0 and rsp_mux.sink3
+Info: Inserting clock-crossing logic between rsp_demux_003.src1 and rsp_mux_001.sink3
+Info: avl_dmem: "m3_sopc" instantiated altera_avalon_mm_bridge "avl_dmem"
+Info: bld_id: Starting RTL generation for module 'm3_sopc_bld_id'
+Info: bld_id:   Generation command is [exec D:/altera/17.1/quartus/bin64/perl/bin/perl.exe -I D:/altera/17.1/quartus/bin64/perl/lib -I D:/altera/17.1/quartus/sopc_builder/bin/europa -I D:/altera/17.1/quartus/sopc_builder/bin/perl_lib -I D:/altera/17.1/quartus/sopc_builder/bin -I D:/altera/17.1/quartus/../ip/altera/sopc_builder_ip/common -I D:/altera/17.1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_pio -- D:/altera/17.1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_pio/generate_rtl.pl --name=m3_sopc_bld_id --dir=C:/Users/nick/AppData/Local/Temp/alt9015_1568140498939491810.dir/0003_bld_id_gen/ --quartus_dir=D:/altera/17.1/quartus --verilog --config=C:/Users/nick/AppData/Local/Temp/alt9015_1568140498939491810.dir/0003_bld_id_gen//m3_sopc_bld_id_component_configuration.pl  --do_build_sim=0  ]
+Info: bld_id: Done RTL generation for module 'm3_sopc_bld_id'
+Info: bld_id: "m3_sopc" instantiated altera_avalon_pio "bld_id"
+Info: core_clk_freq: Starting RTL generation for module 'm3_sopc_core_clk_freq'
+Info: core_clk_freq:   Generation command is [exec D:/altera/17.1/quartus/bin64/perl/bin/perl.exe -I D:/altera/17.1/quartus/bin64/perl/lib -I D:/altera/17.1/quartus/sopc_builder/bin/europa -I D:/altera/17.1/quartus/sopc_builder/bin/perl_lib -I D:/altera/17.1/quartus/sopc_builder/bin -I D:/altera/17.1/quartus/../ip/altera/sopc_builder_ip/common -I D:/altera/17.1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_pio -- D:/altera/17.1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_pio/generate_rtl.pl --name=m3_sopc_core_clk_freq --dir=C:/Users/nick/AppData/Local/Temp/alt9015_1568140498939491810.dir/0004_core_clk_freq_gen/ --quartus_dir=D:/altera/17.1/quartus --verilog --config=C:/Users/nick/AppData/Local/Temp/alt9015_1568140498939491810.dir/0004_core_clk_freq_gen//m3_sopc_core_clk_freq_component_configuration.pl  --do_build_sim=0  ]
+Info: core_clk_freq: Done RTL generation for module 'm3_sopc_core_clk_freq'
+Info: core_clk_freq: "m3_sopc" instantiated altera_avalon_pio "core_clk_freq"
+Info: default_slave: "m3_sopc" instantiated altera_error_response_slave "default_slave"
+Info: onchip_ram: Starting RTL generation for module 'm3_sopc_onchip_ram'
+Info: onchip_ram:   Generation command is [exec D:/altera/17.1/quartus/bin64/perl/bin/perl.exe -I D:/altera/17.1/quartus/bin64/perl/lib -I D:/altera/17.1/quartus/sopc_builder/bin/europa -I D:/altera/17.1/quartus/sopc_builder/bin/perl_lib -I D:/altera/17.1/quartus/sopc_builder/bin -I D:/altera/17.1/quartus/../ip/altera/sopc_builder_ip/common -I D:/altera/17.1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_onchip_memory2 -- D:/altera/17.1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_onchip_memory2/generate_rtl.pl --name=m3_sopc_onchip_ram --dir=C:/Users/nick/AppData/Local/Temp/alt9015_1568140498939491810.dir/0005_onchip_ram_gen/ --quartus_dir=D:/altera/17.1/quartus --verilog --config=C:/Users/nick/AppData/Local/Temp/alt9015_1568140498939491810.dir/0005_onchip_ram_gen//m3_sopc_onchip_ram_component_configuration.pl  --do_build_sim=0  ]
+Info: onchip_ram: Done RTL generation for module 'm3_sopc_onchip_ram'
+Info: onchip_ram: "m3_sopc" instantiated altera_avalon_onchip_memory2 "onchip_ram"
+Info: pio_hex_1_0: Starting RTL generation for module 'm3_sopc_pio_hex_1_0'
+Info: pio_hex_1_0:   Generation command is [exec D:/altera/17.1/quartus/bin64/perl/bin/perl.exe -I D:/altera/17.1/quartus/bin64/perl/lib -I D:/altera/17.1/quartus/sopc_builder/bin/europa -I D:/altera/17.1/quartus/sopc_builder/bin/perl_lib -I D:/altera/17.1/quartus/sopc_builder/bin -I D:/altera/17.1/quartus/../ip/altera/sopc_builder_ip/common -I D:/altera/17.1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_pio -- D:/altera/17.1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_pio/generate_rtl.pl --name=m3_sopc_pio_hex_1_0 --dir=C:/Users/nick/AppData/Local/Temp/alt9015_1568140498939491810.dir/0006_pio_hex_1_0_gen/ --quartus_dir=D:/altera/17.1/quartus --verilog --config=C:/Users/nick/AppData/Local/Temp/alt9015_1568140498939491810.dir/0006_pio_hex_1_0_gen//m3_sopc_pio_hex_1_0_component_configuration.pl  --do_build_sim=0  ]
+Info: pio_hex_1_0: Done RTL generation for module 'm3_sopc_pio_hex_1_0'
+Info: pio_hex_1_0: "m3_sopc" instantiated altera_avalon_pio "pio_hex_1_0"
+Info: pio_led: Starting RTL generation for module 'm3_sopc_pio_led'
+Info: pio_led:   Generation command is [exec D:/altera/17.1/quartus/bin64/perl/bin/perl.exe -I D:/altera/17.1/quartus/bin64/perl/lib -I D:/altera/17.1/quartus/sopc_builder/bin/europa -I D:/altera/17.1/quartus/sopc_builder/bin/perl_lib -I D:/altera/17.1/quartus/sopc_builder/bin -I D:/altera/17.1/quartus/../ip/altera/sopc_builder_ip/common -I D:/altera/17.1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_pio -- D:/altera/17.1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_pio/generate_rtl.pl --name=m3_sopc_pio_led --dir=C:/Users/nick/AppData/Local/Temp/alt9015_1568140498939491810.dir/0007_pio_led_gen/ --quartus_dir=D:/altera/17.1/quartus --verilog --config=C:/Users/nick/AppData/Local/Temp/alt9015_1568140498939491810.dir/0007_pio_led_gen//m3_sopc_pio_led_component_configuration.pl  --do_build_sim=0  ]
+Info: pio_led: Done RTL generation for module 'm3_sopc_pio_led'
+Info: pio_led: "m3_sopc" instantiated altera_avalon_pio "pio_led"
+Info: pio_sw: Starting RTL generation for module 'm3_sopc_pio_sw'
+Info: pio_sw:   Generation command is [exec D:/altera/17.1/quartus/bin64/perl/bin/perl.exe -I D:/altera/17.1/quartus/bin64/perl/lib -I D:/altera/17.1/quartus/sopc_builder/bin/europa -I D:/altera/17.1/quartus/sopc_builder/bin/perl_lib -I D:/altera/17.1/quartus/sopc_builder/bin -I D:/altera/17.1/quartus/../ip/altera/sopc_builder_ip/common -I D:/altera/17.1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_pio -- D:/altera/17.1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_pio/generate_rtl.pl --name=m3_sopc_pio_sw --dir=C:/Users/nick/AppData/Local/Temp/alt9015_1568140498939491810.dir/0008_pio_sw_gen/ --quartus_dir=D:/altera/17.1/quartus --verilog --config=C:/Users/nick/AppData/Local/Temp/alt9015_1568140498939491810.dir/0008_pio_sw_gen//m3_sopc_pio_sw_component_configuration.pl  --do_build_sim=0  ]
+Info: pio_sw: Done RTL generation for module 'm3_sopc_pio_sw'
+Info: pio_sw: "m3_sopc" instantiated altera_avalon_pio "pio_sw"
+Info: reset_sequencer_0: "m3_sopc" instantiated altera_reset_sequencer "reset_sequencer_0"
+Info: sdram: Starting RTL generation for module 'm3_sopc_sdram'
+Info: sdram:   Generation command is [exec D:/altera/17.1/quartus/bin64/perl/bin/perl.exe -I D:/altera/17.1/quartus/bin64/perl/lib -I D:/altera/17.1/quartus/sopc_builder/bin/europa -I D:/altera/17.1/quartus/sopc_builder/bin/perl_lib -I D:/altera/17.1/quartus/sopc_builder/bin -I D:/altera/17.1/quartus/../ip/altera/sopc_builder_ip/common -I D:/altera/17.1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_new_sdram_controller -- D:/altera/17.1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_new_sdram_controller/generate_rtl.pl --name=m3_sopc_sdram --dir=C:/Users/nick/AppData/Local/Temp/alt9015_1568140498939491810.dir/0010_sdram_gen/ --quartus_dir=D:/altera/17.1/quartus --verilog --config=C:/Users/nick/AppData/Local/Temp/alt9015_1568140498939491810.dir/0010_sdram_gen//m3_sopc_sdram_component_configuration.pl  --do_build_sim=0  ]
+Info: sdram: Done RTL generation for module 'm3_sopc_sdram'
+Info: sdram: "m3_sopc" instantiated altera_avalon_new_sdram_controller "sdram"
+Info: sys_pll: "m3_sopc" instantiated altpll "sys_pll"
+Info: avalon_st_adapter: Inserting error_adapter: error_adapter_0
+Info: avalon_st_adapter_001: Inserting error_adapter: error_adapter_0
+Info: avalon_st_adapter_002: Inserting error_adapter: error_adapter_0
+Info: avalon_st_adapter_003: Inserting error_adapter: error_adapter_0
+Info: avalon_st_adapter_004: Inserting error_adapter: error_adapter_0
+Info: avalon_st_adapter_005: Inserting error_adapter: error_adapter_0
+Info: avalon_st_adapter_006: Inserting error_adapter: error_adapter_0
+Info: avalon_st_adapter_007: Inserting error_adapter: error_adapter_0
+Info: avalon_st_adapter_008: Inserting error_adapter: error_adapter_0
+Info: avalon_st_adapter_009: Inserting error_adapter: error_adapter_0
+Info: avalon_st_adapter_010: Inserting error_adapter: error_adapter_0
+Info: mm_interconnect_0: "m3_sopc" instantiated altera_mm_interconnect "mm_interconnect_0"
+Info: rst_controller: "m3_sopc" instantiated altera_reset_controller "rst_controller"
+Info: Reusing file D:/altera/MAX10/scr1-sdk/fpga/marsohod3/scr1/qsys/m3_sopc/synthesis/submodules/altera_reset_controller.v
+Info: Reusing file D:/altera/MAX10/scr1-sdk/fpga/marsohod3/scr1/qsys/m3_sopc/synthesis/submodules/altera_reset_synchronizer.v
+Info: avl_imem_m0_translator: "mm_interconnect_0" instantiated altera_merlin_master_translator "avl_imem_m0_translator"
+Info: onchip_ram_s1_translator: "mm_interconnect_0" instantiated altera_merlin_slave_translator "onchip_ram_s1_translator"
+Info: avl_imem_m0_agent: "mm_interconnect_0" instantiated altera_merlin_master_agent "avl_imem_m0_agent"
+Info: default_slave_axi_error_if_agent: "mm_interconnect_0" instantiated altera_merlin_axi_slave_ni "default_slave_axi_error_if_agent"
+Info: onchip_ram_s1_agent: "mm_interconnect_0" instantiated altera_merlin_slave_agent "onchip_ram_s1_agent"
+Info: Reusing file D:/altera/MAX10/scr1-sdk/fpga/marsohod3/scr1/qsys/m3_sopc/synthesis/submodules/altera_merlin_burst_uncompressor.sv
+Info: onchip_ram_s1_agent_rsp_fifo: "mm_interconnect_0" instantiated altera_avalon_sc_fifo "onchip_ram_s1_agent_rsp_fifo"
+Info: Reusing file D:/altera/MAX10/scr1-sdk/fpga/marsohod3/scr1/qsys/m3_sopc/synthesis/submodules/altera_avalon_sc_fifo.v
+Info: router: "mm_interconnect_0" instantiated altera_merlin_router "router"
+Info: router_001: "mm_interconnect_0" instantiated altera_merlin_router "router_001"
+Info: router_002: "mm_interconnect_0" instantiated altera_merlin_router "router_002"
+Info: router_004: "mm_interconnect_0" instantiated altera_merlin_router "router_004"
+Info: router_005: "mm_interconnect_0" instantiated altera_merlin_router "router_005"
+Info: router_006: "mm_interconnect_0" instantiated altera_merlin_router "router_006"
+Info: avl_imem_m0_limiter: "mm_interconnect_0" instantiated altera_merlin_traffic_limiter "avl_imem_m0_limiter"
+Info: Reusing file D:/altera/MAX10/scr1-sdk/fpga/marsohod3/scr1/qsys/m3_sopc/synthesis/submodules/altera_avalon_sc_fifo.v
+Info: onchip_ram_s1_burst_adapter: "mm_interconnect_0" instantiated altera_merlin_burst_adapter "onchip_ram_s1_burst_adapter"
+Info: Reusing file D:/altera/MAX10/scr1-sdk/fpga/marsohod3/scr1/qsys/m3_sopc/synthesis/submodules/altera_merlin_address_alignment.sv
+Info: Reusing file D:/altera/MAX10/scr1-sdk/fpga/marsohod3/scr1/qsys/m3_sopc/synthesis/submodules/altera_avalon_st_pipeline_base.v
+Info: cmd_demux: "mm_interconnect_0" instantiated altera_merlin_demultiplexer "cmd_demux"
+Info: cmd_demux_001: "mm_interconnect_0" instantiated altera_merlin_demultiplexer "cmd_demux_001"
+Info: cmd_mux: "mm_interconnect_0" instantiated altera_merlin_multiplexer "cmd_mux"
+Info: cmd_mux_004: "mm_interconnect_0" instantiated altera_merlin_multiplexer "cmd_mux_004"
+Info: Reusing file D:/altera/MAX10/scr1-sdk/fpga/marsohod3/scr1/qsys/m3_sopc/synthesis/submodules/altera_merlin_arbitrator.sv
+Info: rsp_demux: "mm_interconnect_0" instantiated altera_merlin_demultiplexer "rsp_demux"
+Info: rsp_demux_003: "mm_interconnect_0" instantiated altera_merlin_demultiplexer "rsp_demux_003"
+Info: rsp_demux_004: "mm_interconnect_0" instantiated altera_merlin_demultiplexer "rsp_demux_004"
+Info: rsp_mux: "mm_interconnect_0" instantiated altera_merlin_multiplexer "rsp_mux"
+Info: Reusing file D:/altera/MAX10/scr1-sdk/fpga/marsohod3/scr1/qsys/m3_sopc/synthesis/submodules/altera_merlin_arbitrator.sv
+Info: rsp_mux_001: "mm_interconnect_0" instantiated altera_merlin_multiplexer "rsp_mux_001"
+Info: Reusing file D:/altera/MAX10/scr1-sdk/fpga/marsohod3/scr1/qsys/m3_sopc/synthesis/submodules/altera_merlin_arbitrator.sv
+Info: onchip_ram_s1_rsp_width_adapter: "mm_interconnect_0" instantiated altera_merlin_width_adapter "onchip_ram_s1_rsp_width_adapter"
+Info: Reusing file D:/altera/MAX10/scr1-sdk/fpga/marsohod3/scr1/qsys/m3_sopc/synthesis/submodules/altera_merlin_address_alignment.sv
+Info: Reusing file D:/altera/MAX10/scr1-sdk/fpga/marsohod3/scr1/qsys/m3_sopc/synthesis/submodules/altera_merlin_burst_uncompressor.sv
+Info: crosser: "mm_interconnect_0" instantiated altera_avalon_st_handshake_clock_crosser "crosser"
+Info: Reusing file D:/altera/MAX10/scr1-sdk/fpga/marsohod3/scr1/qsys/m3_sopc/synthesis/submodules/altera_avalon_st_pipeline_base.v
+Info: avalon_st_adapter: "mm_interconnect_0" instantiated altera_avalon_st_adapter "avalon_st_adapter"
+Info: avalon_st_adapter_001: "mm_interconnect_0" instantiated altera_avalon_st_adapter "avalon_st_adapter_001"
+Info: avalon_st_adapter_002: "mm_interconnect_0" instantiated altera_avalon_st_adapter "avalon_st_adapter_002"
+Info: error_adapter_0: "avalon_st_adapter" instantiated error_adapter "error_adapter_0"
+Info: error_adapter_0: "avalon_st_adapter_001" instantiated error_adapter "error_adapter_0"
+Info: error_adapter_0: "avalon_st_adapter_002" instantiated error_adapter "error_adapter_0"
+Info: m3_sopc: Done "m3_sopc" with 45 modules, 71 files
+Info: qsys-generate succeeded.
+Info: Finished: Create HDL design files for synthesis
